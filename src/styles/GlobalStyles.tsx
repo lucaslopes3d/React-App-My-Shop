@@ -21,6 +21,7 @@ export const GlobalStyles = createGlobalStyle`
 
     &:hover{
       filter: brightness(1.2);
+      transition: filter 0.3s;
     }
   }
 `;
