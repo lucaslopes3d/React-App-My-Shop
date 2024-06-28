@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const Card = styled.article`
   background-color: white;
@@ -43,7 +42,7 @@ export const Review = styled.span`
 
   font-size: 0.7rem;
 
-  svg{
+  svg {
     font-size: 1rem;
   }
 `;
@@ -72,6 +71,25 @@ export const AddToCardButton = styled.button`
   padding: 0 1rem;
   background-color: blue;
   color: white;
+
+  svg {
+    font-size: 0.7rem;
+  }
+`;
+
+export const RemoveFromCardButton = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: violet;
+  color: black;
 
   svg {
     font-size: 0.7rem;
